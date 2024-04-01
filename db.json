@@ -1,1 +1,265 @@
-
+{
+  "NearR":{
+    "statusCode": 200,
+    "statusMessage": "OK",
+    "errorMessage": "",
+    "data": [
+      {
+        "rest_Id": 9874,
+        "resturant_Name": "Hardees",
+        "open_Close_Time": "9am to 12pm",
+        "offdays": "Friday",
+        "resturant_type": "Fast Food",
+        "business_Id": "546asdf5465",
+        "licesnes_Id": "54asdf4fa54",
+        "TopPicks":[
+          {
+            "food_Item_id": 8905,
+            "rest_Cat_id": 3065,
+            "name": "Burger",
+            "description": "Crispy and delicious chicken bites",
+            "unit": "500g",
+            "unit_perPrice": "250",
+            "prepare_time": "15 MIns",
+            "variations": null
+          },
+          {
+            "food_Item_id": 9906,
+            "rest_Cat_id": 3065,
+            "name": "Wraps",
+            "description": "delecious wrap of chicken and cheese",
+            "unit": "1",
+            "unit_perPrice": "550",
+            "prepare_time": "15 MIns",
+            "variations": null
+          },
+          {
+            "food_Item_id": 9906,
+            "rest_Cat_id": 3065,
+            "name": "Pizza",
+            "description": "Crispy dough filled with cheese and chicken",
+            "unit": "1",
+            "unit_perPrice": "550",
+            "prepare_time": "15 MIns",
+            "variations": null
+          },
+          {
+            "food_Item_id": 9906,
+            "rest_Cat_id": 3065,
+            "name": "Sandwiches",
+            "description": "Soft bread with Mayonaise and chicken",
+            "unit": "1",
+            "unit_perPrice": "550",
+            "prepare_time": "15 MIns",
+            "variations": null
+          }
+        ],
+        "rest_Cat_": [
+          {
+            "rest_Cat_id": 3065,
+            "rest_id": 9874,
+            "cat_temp_id": 4569,
+            "name": "Fast Food",
+            "parent_Category": 1,
+            "getting_food_Items": [
+              {
+                "food_Item_id": 8905,
+                "rest_Cat_id": 3065,
+                "name": "Club Sandwich",
+                "description": "Soft bread with Mayonaise and chicken",
+                "unit": "500g",
+                "unit_perPrice": "250",
+                "prepare_time": "15 MIns",
+                "variations": null
+              },
+              {
+                "food_Item_id": 9906,
+                "rest_Cat_id": 3065,
+                "name": "Chicken wings",
+                "description": "8 pieces of chicken wings with sauce",
+                "unit": "1",
+                "unit_perPrice": "550",
+                "prepare_time": "15 MIns",
+                "variations": null
+              }
+            ]
+          },
+          {
+            "rest_Cat_id": 3066,
+            "rest_id": 9874,
+            "cat_temp_id": 4570,
+            "name": "Fast Food",
+            "parent_Category": 1,
+            "getting_food_Items": [
+              {
+                "food_Item_id": 8906,
+                "rest_Cat_id": 3066,
+                "name": "Pizza",
+                "description": "Crispy dough filled with cheese and chicken",
+                "unit": "1",
+                "unit_perPrice": "550",
+                "prepare_time": "15 MIns",
+                "variations": [
+                  {
+                    "v_Id": 9867,
+                    "food_item_id": 8906,
+                    "name": "Size",
+                    "type": 1,
+                    "price_Dependent": "true",
+                    "varation_Options": [
+                      {
+                        "v_op_Id": 5423,
+                        "v_Id": 9867,
+                        "name": "Small",
+                        "price_Dependent": "true",
+                        "price": "500",
+                        "add_Price": "0",
+                        "annotation": "S         "
+                      },
+                      {
+                        "v_op_Id": 5424,
+                        "v_Id": 9867,
+                        "name": "Medium",
+                        "price_Dependent": "true",
+                        "price": "500",
+                        "add_Price": "250",
+                        "annotation": "M         "
+                      },
+                      {
+                        "v_op_Id": 5425,
+                        "v_Id": 9867,
+                        "name": "Large",
+                        "price_Dependent": "true",
+                        "price": "500",
+                        "add_Price": "350",
+                        "annotation": "L         "
+                      }
+                    ]
+                  },
+                  {
+                    "v_Id": 9868,
+                    "food_item_id": 8906,
+                    "name": "Drinks",
+                    "type": 2,
+                    "price_Dependent": "true",
+                    "varation_Options": [
+                      {
+                        "v_op_Id": 5426,
+                        "v_Id": 9868,
+                        "name": "Half Litre",
+                        "price_Dependent": "true",
+                        "price": "180",
+                        "add_Price": "180",
+                        "annotation": "HL        "
+                      },
+                      {
+                        "v_op_Id": 5427,
+                        "v_Id": 9868,
+                        "name": "Litre",
+                        "price_Dependent": "true",
+                        "price": "220",
+                        "add_Price": "220",
+                        "annotation": "L         "
+                      },
+                      {
+                        "v_op_Id": 5428,
+                        "v_Id": 9868,
+                        "name": "1.5 Litre",
+                        "price_Dependent": "true",
+                        "price": "270",
+                        "add_Price": "270",
+                        "annotation": "1.5L      "
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rest_Id": 9878,
+        "resturant_Name": "McDonalds",
+        "open_Close_Time": "24 Hours OPen",
+        "offdays": "Sunday",
+        "resturant_type": "Fast Food",
+        "business_Id": "1224234",
+        "licesnes_Id": "234243",
+        "TopPicks":[
+          {
+            "food_Item_id": 7654,
+            "rest_Cat_id": 2098,
+            "name": "Big Mac",
+            "description": "Classic burger with special sauce",
+            "unit": "450g",
+            "unit_perPrice": "300",
+            "prepare_time": "12 Mins",
+            "variations": null
+          },
+          {
+            "food_Item_id": 8765,
+            "rest_Cat_id": 2098,
+            "name": "Chicken McNuggets",
+            "description": "Crispy and delicious chicken bites",
+            "unit": "12 pieces",
+            "unit_perPrice": "450",
+            "prepare_time": "10 Mins",
+            "variations": null
+          },
+          {
+            "food_Item_id": 9876,
+            "rest_Cat_id": 2098,
+            "name": "Filet-O-Fish",
+            "description": "Fish fillet sandwich with tartar sauce",
+            "unit": "1",
+            "unit_perPrice": "350",
+            "prepare_time": "8 Mins",
+            "variations": null
+          },
+          {
+            "food_Item_id": 5432,
+            "rest_Cat_id": 2098,
+            "name": "McFlurry",
+            "description": "Vanilla soft-serve with your favorite mix-ins",
+            "unit": "300g",
+            "unit_perPrice": "200",
+            "prepare_time": "5 Mins",
+            "variations": null
+          }
+        ],
+        "rest_Cat_":[
+          {
+            "rest_Cat_id": 2098,
+            "rest_id": 6543,
+            "cat_temp_id": 3012,
+            "name": "Fast Food",
+            "parent_Category": 1,
+            "getting_food_Items": [
+              {
+                "food_Item_id": 7654,
+                "rest_Cat_id": 2098,
+                "name": "Big Mac",
+                "description": "Classic burger with special sauce",
+                "unit": "450g",
+                "unit_perPrice": "300",
+                "prepare_time": "12 Mins",
+                "variations": null
+              },
+              {
+                "food_Item_id": 8765,
+                "rest_Cat_id": 2098,
+                "name": "Chicken McNuggets",
+                "description": "Crispy and delicious chicken bites",
+                "unit": "12 pieces",
+                "unit_perPrice": "450",
+                "prepare_time": "10 Mins",
+                "variations": null
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }      
+}
